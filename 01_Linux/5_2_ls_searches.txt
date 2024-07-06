@@ -1,0 +1,22 @@
+Si bien la tarea de ls es listar, podemos utilizar algunas de sus herramientas para filtrar
+una búqueda de archivos
+
+Esto es la capacidad de ls de listarnos el contenido del directorio no solo de donde estamos parados
+sino de la dirección que nosotros le enviemos
+
+ls -flags directory
+
+So we can see on the folders without to go over there using cd
+
+
+Also, we can filter with ls. Then, ls only show us, for example, a certain(determinado) format 
+
+ls *jpg
+
+Or containt a certain letter
+
+ls *o* (This is case sensitive)
+
+ls *Ou*
+
+On the last one form, if the output is a directory, it show us a preview of its content

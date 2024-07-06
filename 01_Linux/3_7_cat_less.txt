@@ -1,0 +1,46 @@
+Modificar el contenido de los archivos sin utilizar la interfaz grafica
+
+Esto se hace mediante editores como nano o vim
+
+nano fileName.format
+
+nano ruta/fileName.format
+
+Una vez realizadas las modificaciones deseadas, presionamos ctrl + o para guardar y ctrl + x para salir
+
+-----------
+
+Como ver el contenido de los archivos desde la terminal?
+
+cat
+
+Permite visualizar
+
+cat fileName.format
+
+cat ruta/fileName.format
+
+Lo imprime en la misma consola todo el contenido de golpe
+
+------
+
+less
+
+similar a cat pero en vez de tirar todo de golpe lo va mostrando de a poco a medida que uno va leyendo
+
+con enter salta una linea
+
+con space salta varias lineas
+
+con b vuelve para atras de a una linea
+
+con q salimos de ese formato
+
+-----
+
+more
+
+similar al less pero me va mostrando el porcentaje leído del texto
+
+
+

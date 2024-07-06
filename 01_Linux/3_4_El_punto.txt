@@ -1,0 +1,8 @@
+El . me referencia a mi mismo
+
+cd .
+
+Por ejemplo para traerme un archivo de otra carpeta a donde yo estoy parado en este momento
+
+cp archivo/~ruta .
+

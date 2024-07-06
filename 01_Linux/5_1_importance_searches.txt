@@ -1,0 +1,3 @@
+Cómo buscar un archivo desde la terminal por el nombre de archivo sin sabes en qué directorio esté
+incluso podemos guardar los resultados de esas búsquedas en otros archivos
+

@@ -1,0 +1,20 @@
+Todo es un programa, incluyendo en la Terminal, cada comando es un programa
+Todo programa tiene 3 estándares básicos
+
+Standar input
+Standar output
+Standar error
+
+input es una entrada que nosotros mandamos como por ejemplo un parámetro 
+    donde se va a procesar algo
+output es la respuesta a esos procesos
+error es lo que sucede cuando el proceso que solicitamos fue fallido
+
+Cuando vayamos a crear un comando, debemos tener en cuenta estos 3 estandares
+
+
+Standar output como archivo
+es posible guardar ek output de un comando en un archivo de la siguiente manera
+comando > dir/namefile.format
+esto creará un nuevo archivo con el contenido del output, o sobreescribirá uno ya existente
+

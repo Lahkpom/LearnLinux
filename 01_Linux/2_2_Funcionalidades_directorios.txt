@@ -1,0 +1,41 @@
+/bin/
+'Binaria', almacena archivos ejecutables necesarios para el funcionamiento del sistema
+
+/boot/
+Contiene los archivos necesarios para que el sistema arranque
+
+/dev/
+Contiene las unidades de disco permanentes (almacenamiento/disco duro), tratar los dispositivos de hardware como ficheros
+
+/etc/
+Contiene ficheros estáticos, generalmente los archivos de configuración de los software que instalemos
+
+/home/
+Carpeta de uso compartido, donde guardamos todos los archivos y donde más interactuamos (el escritorio). Cuando creamos un nuevo user, se jerarquiza en el home
+
+/lib/
+Library, almacena las bibliotecas necesarias para que los archivos ejecutables funcionen correctamente
+
+/mnt/
+Contiene las unidades de disco NO permanente (discos duros externos)
+
+/media/
+Contiene hardware No permanente como USBs y CDs
+
+/opt/
+Almacena programas que no están incorporados en el SO por defecto
+
+/root/
+Directorio del administrador (el Home)
+
+/sbin/
+Almacena archivos ejecutables que solo puede ejecutar el user root
+
+/tmp/
+Almacena archivos temporales que se borran al reiniciar el SO
+
+/usr/
+Almacena programas instalados en el SO
+
+/var/
+Guarda info dinámica como el log del system (Logger es información qu nos retorna un sistema)

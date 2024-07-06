@@ -1,0 +1,16 @@
+Al poner crontab -e se nos habre el editor de texto (o nos pregunta con cuál queremos abrirlo)
+
+Tiene unas indicaciones y de ahí ya abajo podemos comenzar a guardar nuestros crontab
+
+Por ejemplo
+
+*   *   *   *   *   date > ~/Desktop/dates.txt 
+
+Esto nos grabará en ese archivo la hora, pero siempre sobreescribiendo en la 1ra línea
+Si queremos que haga una abajo de la otra podemos usar la >>
+
+*   *   *   *   *   date >> ~/Desktop/dates.txt 
+
+*   *   *   *   *   ls ~/Desktop/ >> ~/Desktop/listados.txt
+
+*   *   *   *   *   ls ~/Desktop/ | wc -l >> ~/Desktop/cantElementos.txt

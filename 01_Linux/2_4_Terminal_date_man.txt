@@ -1,0 +1,33 @@
+Comandos:
+
+bc
+nos abre una calculadora con un mensaje de presentación
+se sale con el comando 
+quit
+
+bc -q
+nos abre una calculadora sin presentación (-q de quiet/tranquilo)
+quit
+
+
+
+clear = ctrl + L
+
+
+
+date
+nos muestra la fecha, hora y zona horaria actual de nuestra pc al momento de ejecutarlo
+
+
+man
+nos da un manual de instrucciones de los comandos que nosotros ejecutamos
+por ejemplo
+man date
+nos muestra que podemos hacer con date
+salimos del manual con
+q
+
+
+
+history
+nos muestra el historial de comandos ingresados al sistema

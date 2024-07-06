@@ -1,0 +1,34 @@
+Si apretamos la tecla o nos hace un salto de línea y se pone en modo INSERTAR automáticamente
+desde donde sea que estemos parados
+
+Si apretamos la tecla O hace lo mismo pero pone el salto para atrás
+
+Si presiono la tecla x borro laletra en la que estoy ubicado sin necesidad
+de ingresar al modo INSERTAR
+
+Con la X borro la letra de atras de donde estoy parado
+
+Si apretamos la letra r, nos permita reemplazar el caracter sobre el cual estamos 
+parados, sin entrar a modo INSERTAR
+
+Si apretamos la d, corta desde donde estamos hasta donde le indiquemos, va acompañado 
+de alguna tecla como la w Que hace que borre toda la palabra hasta la primera 
+letra de la siguiente
+
+Si nos ubicamos al final de una línea y presionamos dd, cortará esa línea, y podremos 
+volvera pegarla en donde queramos con la letra p
+
+Con yy copia la línea en la que estamos parados
+
+Podemos combinarlo con 3 yy y copiará la línea en la que estamos y las 2 que siguen 
+
+Presionando el . volvemos a realizar el último comando aplicado sin volvera escribirlo
+
+Si apretamos la v entramos al modo visual, este modo nos permite seleccionar, líneas 
+enteras de texto o palabras por palabras, para luego realizar comandos con ellas
+
+
+
+
+
+

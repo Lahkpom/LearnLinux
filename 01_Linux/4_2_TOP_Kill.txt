@@ -1,0 +1,18 @@
+Top
+El comando top nos muestra en tiempo real los procesos que están sucediendo en la máquina
+Nos muestra información util como el ID, el usuario, %cpu, %ram entre otras de dichos procesos
+De esta forma podemos identificar qué procesos están consumiento recursos en exceso y finalizarlos
+
+Puede sucede que haya un proceso que esté consumiendo demasiada memoria y sature al resto de procesos
+Estos pueden ser eliminados mediante el comando kill, pero hay que tener cuidado de no matar un 
+proceso importante
+
+Para esto, estando dentro del comando top, debemos precionar la tecla 'k', lo que nos solicitará
+el Process ID del procesos que queremos eliminar, y posteriomente precionar doble enter para
+confirmar.
+De este modo eliminamos los procesos por consola.
+
+Tambié es posible eliminar los procesos sin estar en la interfaz del top
+Esto es mediante el siguiente comando
+kill -9 'PID'
+Para lo que debemos saber el nro del proceso que deseamos eliminar

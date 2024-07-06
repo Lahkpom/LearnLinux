@@ -1,0 +1,16 @@
+touch fileName.formato
+
+touch Ruta/fileName.formato 
+
+touch se usa para crear nuevos archivos, debe ponerse el nombre y el tipo de archivo
+
+---------------------------------
+
+mkdir
+
+make directory
+
+mkdir folderName
+
+mkdir Ruta/folderName
+

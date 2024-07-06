@@ -1,0 +1,20 @@
+El pipe es |
+Este símbolo permite que el output de comando sea el input  en otro
+
+Por ejemplo, si queremos que nos diga la cantidad de lineas que hay en una dirección
+
+ls | wc -l 
+
+ls nos lista la cantidad de elementos que hay en una dirección
+
+wd -l cuenta la cantidad de líneas que hay en determinado output
+(cantidad de líneas total, no solo de archivos/carpetas)
+
+con el pipe '|', hacemos que wd -l cuente la cantidad de lineas del output de ls, siendo 
+esa output el intput para wd -l
+
+Si quisieramos por ejemplo, podríamos guardar el resultado en un archivo
+
+ls | wc -l > file.txt
+
+(It's +1, because it creates a new file before count them, so the count is adding one)

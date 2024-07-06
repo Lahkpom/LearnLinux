@@ -1,0 +1,35 @@
+sudo apt install vim
+
+Vim tiene diferentes  modos de trabajo
+
+1. normal: navegar por el documento y ejecutarcomando para su edición
+en la parte inferior nos dice el nombre del archivo, cantidad de líneas y canti de caracteres
+
+podemos desplazarnos usando las teclas j baja, h izquierda, k sube, l derecha pero no podemos 
+ingresar texto
+
+Presionando la letra i, pasa a modo INSERTAR
+
+2. -- INSERTAR --
+
+Ahora podemos ingresar texto
+
+Para salir del modo insertar presionamos escape y nos devuelve al modo normal
+
+Para salir de VIM, presionamos 
+
+:q (de quit)
+
+Para salir sin guardar los cambios
+
+:q!
+
+Para salir guardando los cambio 
+
+:wq (write quit)
+
+
+
+
+
+

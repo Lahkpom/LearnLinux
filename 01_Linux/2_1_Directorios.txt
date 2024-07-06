@@ -1,0 +1,21 @@
+Jerarquías:
+
+Primaria: root: /
+
+De primer nivel: bin - sbin - home - tmp - lib - usr - var
+
+De segundo nivel: /home: jane - will - zeb ; /usr: bin - lib
+
+De tercer nivel: /home/will: work - play
+
+
+
+Directorios:
+
+- De uso compartido: que tienen acceso diferentes users
+
+- No compartidos: solo modificables y accesibles por el user root
+
+- Variables: su info varía (loggers de sistema y de programas)
+
+- Estáticos: modificables por el user root, pero accesibles por otros users 

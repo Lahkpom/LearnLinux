@@ -1,0 +1,21 @@
+Crear comandos personalizados mediante alias
+
+alias comando='comando que queremos resumir'
+
+alias ls='ls -lha'
+
+Estos alias solo funcionan en la terminal presente y se borra al cerrarla
+
+-----
+
+Existe una carpeta oculta en el cd ~
+
+Se hace visible con el ls -lha
+
+Se llama .bashrc
+
+Esta carpeta es la que se ejecuta cada vez que se abre una termina
+
+Si modificamos o agregamos cosas dentro de ella, serán permanentes sus efectos
+
+Esto es 'Dar de alta variables'

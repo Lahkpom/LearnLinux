@@ -1,0 +1,4 @@
+Hay tipos de archivos pensados para la interpretación humana y otros que no
+
+Un ejemplo de estos son los archivos bin, que son pensados solo para interpretación de la máquina
+

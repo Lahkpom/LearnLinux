@@ -1,0 +1,33 @@
+A diferencia de grep, que busca palabras clave dentro de archivo, find busca archivos
+con una palabra clave
+
+find . -name *txt
+
+esto busca todos los archivos  .txt esxitentes desde mi posición
+NO CUENTA LOS TXT EXISTENTES EN MI MISMA POSICIÓN, SOLO BUSCA DESDE LA SIGUIENTE
+CARPETA EN LA QUE YO ESTÉ 
+
+find . *txt
+
+Esto nos devuelve los archivos que tenemos también en nuestra posición pero lo hace por
+duplicado, no comprendo porqué
+
+También podemos buscar un nombre específico, pero debe estar completo, no solo una parte
+
+find . -name proofFolder.txt
+
+No se explicó cómo buscar con solo una parte del nombre
+
+
+También podemos usar -type para buscar por tipo de archivo
+
+find . -type d  Esto nos devuelve todos los directorios
+
+find . -type f  Esto nos devuelve todos los archivos (file)
+
+
+
+Esto lo podemos mezclar como simpre con otros como el |
+
+find . -type f | wc -l
+

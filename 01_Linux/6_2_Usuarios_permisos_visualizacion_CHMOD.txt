@@ -1,0 +1,57 @@
+Con los usuario podemos saber qué permisos tenemos y a qué grupo pertenecemos
+
+Esto lo sabemos con el comando whoami
+
+Podemos ver los permisos que tenemos sobre los archivos y directorios por ejemplo
+cuando usamos el ls, donde al principio aparecen una serie de letras y guiónes
+Si la línea empieza con un - es un archivo, y si empieza con una d es un directorio
+
+Luego de esto, encontramos 3 ternas continuas
+
+-rwxrwxrwx
+
+puede contener 3 letras
+r = read
+w= write
+x= execute
+
+Cada una corresponde a permisos de lectura, ejecución y escritura, y en el caso de no tener 
+algún permiso, se le coloca un guión en su lugar
+
+Cada terna indica que permisos tiene cada usuario
+
+La 1ra terna, indica  que permisos tiene el Owner (propietario del sistema)
+
+La 2da terna, indica los permisos que tienen los usuarios del grupo al que pertenezco
+(podemos configurar que permisos tiene cada grupo)
+
+La 3ra terna, indica los permisos que tienen el resto de usuarios que no pertenecen 
+al mismo grupo
+
+Seguido de esa terna, nos indica el nombre del usuario que creó ese archivo y a qué 
+grupo pertenece
+
+Qué valor tiene cada terna de permisos?
+
+rwx 7
+rw- 6
+r-- 4
+-w- 2
+--x 1
+r-x 5
+--- 0
+
+Al momento de asignar estos permisos, se indica con valores numéricos por terna, es decir,
+si a un archivo/directorio le doy
+
+777 quiere decir que tanto el owner, group y anyone tienen todos los permisos (permiso 7)
+
+Para poder administrar estos permisos, usamos el comando chmod (change mode)
+
+Recibe 3 valor más  el nombre de un archivo/carpeta
+
+chmod 777 file/folder
+
+chmod 420 file/folder
+
+Cada valor es independiente

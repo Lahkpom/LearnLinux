@@ -1,0 +1,52 @@
+crontab sirve para automatizar procesos
+
+Algunos comandos con crontab:
+
+crontab -l => lista los crontab instalados
+
+crontab -r => elimina los contrab instalados en el sistema
+
+crontab -e => para crear un crontab nuevo
+al ejecutar esto nos abrirá un editor que seguramente  sea vim
+para indicarle que queremos abrirlo con nano, ejecutamos primero
+export EDITOR='nano'
+y luego el crontab -e 
+
+Los crontab de dividen en 6 columnas
+
+minuto | hora | día del mes | mes del año |  día de la semana | script 
+
+Minuto: en que quiero que se ejecute mi tarea programada
+Hora: en que quiero que se ejecute mi tarea programada
+Día del mes: en que quiero que se ejecute mi tarea programada
+Mes del año: en que quiero que se ejecute mi tarea programada
+Día de  la semana: en que quiero que se ejecute mi tarea programada (00 y 07 son domingo)
+Script: Comando que debe ejecutarse
+
+Caundo veamos los crontab, no mostrarán su nombre como tal, sinó que mostrará asteríscos
+y cada uno de ellos acepta valores distintos según le corresponde
+
+ min |hour | day |month|week |script
+  *  |  *  |  *  |  *  |  *  |  *
+00-59|00-23|01-31|01-12|00-07|Cualquier comando de linux o incluso scripts programados en 
+                                otros lenguajes de programación
+
+El * también es un valor válido, que indica "En todos los valores"
+Si en min tenemos un *, significa que la tarea se ejecutará cada minuto
+
+También podemos concatenar dentro de un mismo parámetro
+Si en min ponemos 1, 5, 10 significa que ejecutará el script en los minutos 1, 5 y 10 
+
+* <= Todos los valores posibles
+1 <= Un valor determinado
+1,2,5 <= En esos valores específicamente
+1-10 <= En los primeros 10 valores
+*/20 <= Cada 20 min (aplicable según cada campo)
+
+
+Para no tener que escribirlo a mano, exiten herramientas en la web que nos facilitan
+la creación de los crontab, dándonos el código para pegar
+
+crontab-generator.org
+
+min 11:19

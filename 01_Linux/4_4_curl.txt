@@ -1,0 +1,7 @@
+con curl podemos navegar por internet  como con un browser pero sin la interfaz gráfica del mismo
+curl recibe como parametro el url 
+nos da en consola el texto plano del contenido de esa url (texto / imagenes)
+
+con el > y dandole un archivo podemos guardar esa informacion 
+
+nose para qué puede ser útil

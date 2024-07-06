@@ -1,0 +1,23 @@
+Cómo buscar palabras completas?
+
+/palabra
+
+Esto va a hacer que vim busque la primera palabra en donde haya coincidencia, y 
+si queremos que siga buscando la misma palabra, podemos presiona la tecla n y con N 
+volvemoa hacia atrás en la búsqueda
+
+Se pueden realizar también búsquedas con expresiones regulares (no lo profundiza)
+
+Cómo buscar y reemplazar palabras
+Ejemplo
+Buscar todas las palabras 'que' y reemplazarlas con 'euq'
+
+:%s/que/ueq/g
+
+s: subtitute
+g: global, para que busque en todo el documento, si no lo ponemos solo reemplazará
+lo que coincida dentro de la misma línea
+
+Para deshacer cambios tenemos que apretar la u (sería el ctrl+z)
+
+

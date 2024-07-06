@@ -1,0 +1,13 @@
+pwd
+print/personal/point working directory
+nos imprime la ruta en la que nosotros estamos ubicados
+
+
+ls
+listar, lista lo que este dentro de este directory
+
+
+
+cd
+change directory
+nos permite movernos entre las carpetas que 

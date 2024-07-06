@@ -1,0 +1,41 @@
+cp
+
+copy
+
+Copiar archivos
+
+cp archivo ~rutaDestino
+
+cp ~rutaInicial/* ~rutaDestino (Copia todos los archivos contenidos en la ruta inicial a la ruta destino)
+
+cp archivo ~/Escritorio/xxx
+
+----------------------------------------
+
+rm
+
+remove
+
+rm archivo
+
+no pregunta si estas seguro
+
+solo remueve archivos
+
+Se puede concatenar varios archivos
+
+rm file1.txt file2.dart file...
+
+rm -r folder Elimina la carpeta aún con archivos dentro
+
+---------
+
+mv
+
+move
+
+mover un archivo de un lugar a otro
+14:28 27/09/202314:28 27/09/2023
+mv archivo ~rutaDestino
+
+mv ~rutaInicial/* ~rutaDestino (Copia todos los archivos contenidos en la ruta inicial a la ruta destino)

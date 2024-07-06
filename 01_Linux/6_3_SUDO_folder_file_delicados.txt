@@ -1,0 +1,36 @@
+Por ejemplo si quisieramos agregar archivos dentro de la root /
+
+touch /ejemplo.txt
+
+nos denegará el permiso así nosotros seamos quienes controlamos todo.
+
+Esto se debe a que tiene contenido delicado.
+
+Aún así, nosotros podemos forzar este tipo de acciones, utilizando el comando SUDO 
+que puede realizar lo que quiera, con todos los permisos
+
+SUDO Super User Do
+
+sudo touch /ejemplo.txt
+
+nos solicitará ingresar la contraseña y nos dará todos los permisos
+
+lo mismo para acciones como rm
+
+rm /ejemplo.txt nos denegará el permiso
+
+sudo rm /ejemplo.txt nos dejará
+
+Esto es peligroso ya que hay que tener cuidado con no borrar nada escencial para el 
+funcionamiento del SO 
+
+Si queremos realizar varias acciones que requerien al SuperUser y no queremos estar escribiéndo
+sudo, podemos usar el comando 
+
+sudo su
+
+lo que nos logeará como usuarios root, y cada acción que realicemos tendrá el sudo implícitamente
+
+Para salir de ese estado, ponemos exit, y nos devolverá al estado normal
+
+

@@ -1,0 +1,35 @@
+Busca palabras clave (expresiones) dentro de un archivo determinado
+Es decir que nos dice si una expresión está o nos
+
+grep file.format -e expresión
+
+En caso de estar, nos retorna cada línea donde esté esa expresión, resaltada en rojo
+
+En caso de no estar, no retorna nada
+
+si le agregamos el flag -n, en el retorno nos indicará cuáles en nro de cada línea 
+en la que haya encontrado diche expresión
+
+grep -n file.format -e expresión
+
+Esto también pordíamos combinarlo con otros comandos con |
+
+grep file.format -e expresión | wc -l (nos devuelve la cantidad de líneas)
+
+grep -n file.format -e expresión | less/more (nos muestra la información a medida que la vamos ocupando)
+
+
+
+¿Cómo hacemos si no sabemos qué archivo contiene la expresión que buscamos?
+What do we do if we don't know which file contains the expression we are looking for?
+
+grep -r . -e expression 
+
+-r de recorrer (recursive)
+. haceindo referencia a que recorra desde donde yo estoy
+
+Esto va a buscar una determinada expresión desde donde yo estoy parado hasta cada subdirectorio que encuentre
+Y nos devolverá lo mismo que de la otra forma, agregando la dirección de donde se encuentre el archivo
+
+Incluso en lugar del punto podríamos poner cualquier dirección, por lo que puedo buscar en determinada carpeta
+estando en cualquier otra

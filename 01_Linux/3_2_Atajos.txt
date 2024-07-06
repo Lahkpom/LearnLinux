@@ -1,0 +1,24 @@
+Como volver a la carpeta home si estoy en un nivel muy alto de directorios?
+
+cd /
+
+de esta forma voy al root
+
+el root se muestra con un /$
+
+mientras que el home se muestra con ~$
+
+para llegar hasta ahi, tendriamos que poner
+
+cd /home/(nombre del usuario)
+
+cd /home/leonel_hidalgo
+
+o en su mínima expresión
+
+cd ~
+
+si yo me sali del directorio donde estaba y quiero regresar, puedo usar
+
+cd -
+

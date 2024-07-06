@@ -1,0 +1,41 @@
+Para editar un archivo podemos poner 
+
+vim ~/path
+
+O ya dentro de un archivo VIM en blano poner
+
+:edit ~/path
+
+Con w nos movemos de a palabra, colocandose en la primera letra de a palabra que sigue a 
+la que estamos
+
+Con e es lo mismo pero nos envía a la última letra de la palabra que sigue a la que estamos
+
+Con b, retrocedemos por palabra
+
+Si queremos bajar o subir una cantidad específica de líneas, podemos indicar el número 
+de líneas que queremos bajar/subir y luego apretar j o k según corresponda
+
+10 j
+20 k
+
+(Esto nos evita apretar la tecla x cantidad de veces
+
+De la misma forma funciona con w, moviéndonos de a  x cantidad de palabras
+
+Si presionamos la f, a continuación podemos ingresar cualquier letra, y el editor nos
+llevará a la siguiente vez que aparezca esa letra dentro de esa misma línea en la que estamos
+
+Con el 0 nos ubicamos all principo de una línea, y con $ nos ubicamos al final
+
+Si presionamos *, el editor nos buscará la siguiente vez que aparezca la misma palabra en la 
+que estamos ubicados
+
+Si vemos un paréntesis abierto y queremos saber dónde cierra, debemos ubicarnos en la 
+abertura y ponemos % y viceversa)
+
+Si apretamos gg va a la línea 1
+Si apretamos G va a la última línea
+
+Para ir a un línea específica, apretamos el número de línea a la qu queremos ir y G
+15 G

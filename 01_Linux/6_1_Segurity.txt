@@ -1,0 +1,7 @@
+Tenemos omandos especiales que nos permiten restringir el acceso con permisos, son 3
+
+De lectura
+
+De ejecución
+
+De escritura
